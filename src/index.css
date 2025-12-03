@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+.custom-scrollbar-rect::-webkit-scrollbar:vertical {
+  width: 10px; 
+}
+
+.custom-scrollbar-rect::-webkit-scrollbar-track:vertical {
+  background: #e5e7eb; 
+  border-radius: 0;      
+}
+
+.custom-scrollbar-rect::-webkit-scrollbar-thumb:vertical {
+  background-color: #3b82f6; 
+  border-radius: 0;           
+  border: none;               
+}
+
+.custom-scrollbar-rect::-webkit-scrollbar-thumb:vertical:hover {
+  background-color: #2563eb; 
+}
+
+.custom-scrollbar-rect {
+  scrollbar-width: auto;
+  scrollbar-color: #3b82f6 #e5e7eb;
+}
